@@ -1,6 +1,11 @@
 a message queue with priority using http protocol. Default servers as a FIFO(first in first out) queue. The message put into the queue with priority argument in the message-put request will be the first one to be get with message-get request.
+
+
 check queue status: http://localhost/?name=your_queue_name&opt=status
+
 get messege from queue: http://localhost/?name=your_queue_name&opt=get
+
 put message into queue:http://localhost/?name=your_queue_name&opt=put&data=message
+
 put message with priority :http://localhost/?name=your_queue_name&opt=put&data=message
 
